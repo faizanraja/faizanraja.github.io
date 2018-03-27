@@ -1,0 +1,46 @@
+page-risk-report-by-id {
+
+
+    th,td{
+        padding: 10px 10px 10px 10px;
+        align-content: center;
+       }
+       th{
+        background-color: #f2f2f2;            
+       }
+       label{
+           
+       }
+
+       .riskID{
+           background-color:transparent;
+           vertical-align: top;
+           border: 1px solid whitesmoke;
+          // width: 200px;
+           
+           
+
+       }
+       .riskidbutton{
+            
+           position: relative;
+           background-color:twitter;
+           color:white;
+           font-size: large;
+           padding: 5px 5px 5px 5px;
+           width: 100px;
+           height: 40px;
+           
+       }
+
+       #riskID{
+        
+                    padding: 5px 5px 5px 5px;
+       }
+       #riskidbutton{
+                //margin-left: 5px;
+                padding: 5px 5px 5px 5px;
+                float: right;
+       }
+       
+}

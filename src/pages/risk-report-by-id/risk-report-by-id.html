@@ -1,0 +1,31 @@
+<!--
+  Generated template for the RiskReportByIdPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>riskReportByID</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<label>Risk ID:</label>
+<div id="riskID">
+  <ion-input type="text" class="riskID" dir="auto" [(ngModel)]="id"></ion-input>
+  
+</div>
+
+<div id="riskidbutton">
+  <button class="riskidbutton" title="Get Data By ID Report" value="Apply" (click)="onClickButtonID()">Apply</button>
+</div>
+
+
+
+  <div id="riskReportByID"></div>
+
+</ion-content>

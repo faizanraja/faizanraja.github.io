@@ -1,0 +1,8 @@
+{
+  "name": "RiskReportApp",
+  "app_id": "4c6aac7e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

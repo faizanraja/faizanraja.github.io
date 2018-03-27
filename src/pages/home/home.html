@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Get Reports
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+   <!-- <h3 style="color:green">User is logged in.</h3> -->
+   <div id="buttonDiv">
+     <div id="buttonID">
+   <button class="button1" ion-button name="RiskReportByID " (click)="onClickRiskReportByID()">Risk Report By ID</button> <br>
+  </div>
+  <div id="buttonTitle">
+   <button class="button1" ion-button name="RiskTitleReport" (click)="onClickRiskReportTitle()">Risk Report By Title</button>
+  </div>
+  </div>
+  <div id="response"></div>
+  <div id="riskTitleReport"></div>  
+</ion-content>

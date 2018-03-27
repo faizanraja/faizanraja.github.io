@@ -1,0 +1,36 @@
+<!--
+  Generated template for the TestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Test</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+    <ion-item>
+        <ion-label>Office</ion-label>
+        <ion-select  [(ngModel)]="office" multiple="true">
+          <ion-option>Atlanta</ion-option>
+          <ion-option>Beijing</ion-option>
+          <ion-option>Dubai</ion-option>
+          <ion-option>Johannesburg</ion-option>
+          <ion-option>London</ion-option>
+          <ion-option>Paris</ion-option>
+          <ion-option>Singapore</ion-option>
+          <ion-option>Toronto</ion-option>
+          
+        </ion-select>
+      </ion-item>
+
+<button ion-button (click)="checkbox()">GET Office</button>
+<div id="office"></div>
+</ion-content>

@@ -1,0 +1,64 @@
+<!--
+  Generated template for the RiskTitleReportPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+<script>
+          function checkAll()
+          {
+              debugger
+          }
+</script>
+  <ion-navbar>
+    <ion-title>riskTitleReport</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+ 
+     <ion-item>
+        <ion-label>Region</ion-label>
+        <ion-select (ionChange)="regionItems(regionModel)" [(ngModel)]="regionModel" multiple="true">
+          <ion-option>All Selected</ion-option>          
+          <ion-option *ngFor="let item of regionModel">{{item}}</ion-option>
+          
+          
+        </ion-select>
+      </ion-item>
+      
+      <ion-item>
+            <ion-label>Office</ion-label>
+
+            <ion-select (ionChange)="officeItems(officeModel)"   [(ngModel)]="officeModel" multiple="true">
+
+            <ion-option>All Selected</ion-option>
+            <ion-option *ngFor="let item of officeModel">{{item}}</ion-option>
+            
+            
+          </ion-select>
+        </ion-item>
+        
+
+        <ion-item>
+             <ion-label >Title</ion-label> 
+            
+              <ion-select (ionChange)="titleItems(titleModel)" [(ngModel)]="titleModel" multiple="true">
+              <!-- <ion-option id="selected"  >All Selected</ion-option> -->
+              <ion-option >All Selected</ion-option>              
+              <ion-option *ngFor="let item of titleModel">{{item}}</ion-option>
+              
+
+            </ion-select>
+          </ion-item> 
+            
+            
+ <button id="titleReportButton" ion-button (click)="onClickButton()">Display Risk Title Report</button>    
+
+ 
+<!-- <p>{{officeModel}}</p> -->
+</ion-content>
